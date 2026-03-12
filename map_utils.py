@@ -3,7 +3,7 @@ utils/map_utils.py — Folium-Karte
 """
 import folium
 from folium.plugins import MarkerCluster
-from utils.scoring import STATUS_COLOR
+from scoring import STATUS_COLOR
 
 WAS_BLUE   = "#003064"
 WAS_ORANGE = "#f29400"
