@@ -4,9 +4,9 @@ pages/05_admin.py — Datenverwaltung · Score-Automat · Import
 import streamlit as st
 import pandas as pd
 import json
-from utils.db import (load_standorte, upsert_standort,
+from db import (load_standorte, upsert_standort,
                       load_firmen, save_snapshot, get_client)
-from utils.scoring import calc_score, schwachstellen
+from scoring import calc_score, schwachstellen
 
 st.title("⚙ Admin · Datenverwaltung")
 st.caption("Nur für WAS-Projektteam. Änderungen werden sofort in Supabase gespeichert.")

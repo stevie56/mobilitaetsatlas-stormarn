@@ -3,7 +3,7 @@ pages/03_feedback.py — Betriebsfeedback · direkt in Supabase
 """
 import streamlit as st
 import pandas as pd
-from utils.db import load_standorte, insert_feedback, load_feedback
+from db import load_standorte, insert_feedback, load_feedback
 
 st.title("📋 Betriebsfeedback")
 st.markdown("Ihre Angaben fließen direkt in die Atlas-Datenbasis ein und stärken die Argumentation gegenüber NAH.SH und Kreispolitik.")

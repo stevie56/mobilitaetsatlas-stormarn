@@ -5,8 +5,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from utils.db import load_standorte, load_snapshots
-from utils.scoring import STATUS_COLOR
+from db import load_standorte, load_snapshots
+from scoring import STATUS_COLOR
 
 WAS_BLUE   = "#003064"
 WAS_ORANGE = "#f29400"

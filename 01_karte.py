@@ -4,9 +4,9 @@ pages/01_karte.py — Interaktive Karte mit Sidebar-Filter
 import streamlit as st
 import pandas as pd
 from streamlit_folium import st_folium
-from utils.db import load_standorte, load_firmen
-from utils.map_utils import make_map
-from utils.scoring import STATUS_COLOR, STATUS_EMOJI, schwachstellen
+from db import load_standorte, load_firmen
+from map_utils import make_map
+from scoring import STATUS_COLOR, STATUS_EMOJI, schwachstellen
 
 # ── Sidebar: WAS-Header ───────────────────────────────────
 with st.sidebar:
